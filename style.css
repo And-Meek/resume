@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: grey;
+}
+.table {
+    width: 100%;
+}
+.table th, tr, td {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid;
+}
+.table tr td:hover,th:hover {
+    background-color: white;
+}
+.table tr:nth-child(even) {
+    background-color: gray;
+}
+th {
+background: orange;
+}
+a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#VK {
+    padding: 10px;
+    border-radius: 2px;
+    background: #147bff;
+    border-radius: 7px;
+
+}
+#TG {
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background: #32b1d8;
+    border-radius: 7px;
+}
+
+.header {
+    background: #bbb;
+    border-radius: 6px;
+}
+.socials {
+    background: #bbb;
+    border-radius: 6px;
+}
+.contact_me {
+    background: #bbb;
+    border-radius: 6px;
+}
+h1 {
+    background: #bbb;
+    border-radius: 6px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 15px;
+}
+.avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    max-width: 200px;
+    border-radius: 6px;
+    max-height: 200px;
+}
+a {
+    text-decoration: none;
+}
+.btn:hover {
+    opacity: 0.8;
+    font-family: inherit;
+    transition: all 0.3s;
+}
+.contact_me .btn {
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:visited {
+    opacity: 0.8px;
+}
+.header {
+    margin: 0;
+    padding: 0;
+}
+.header ul{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+.header ul li {
+    margin: 0;
+    padding-bottom: 0px;
+    list-style: none;
+}
+
+
+.form-row {
+ margin-bottom: 10px;
+ display: flex;
+}
+.form-row .form {
+    margin-right: 20px;
+    width: 50%;
+}
+.form-row .form:last-child{
+    margin-right: 0;
+}
+.form label {
+    display: block;
+    padding: 10px;
+}
+.form input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    color: black;
+    padding: 0 10px 15px;
+    outline: none;
+}
+
+.info {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin-left: 20px;
+}
+.info h1,p {
+    margin: 0;
+}
+.list {
+    margin: 5px;
+}
+@media (max-width: 650px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .container .info {
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .container .header {
+        margin: 0;
+        padding: 0;
+    }
+    .form-row {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .form-row .form {
+        display: block;
+        width: 100%;
+    }
+    .form-row input {
+        text-align: center;
+    }
+    textarea {
+        text-align: center;
+    }
+        
+
+}
